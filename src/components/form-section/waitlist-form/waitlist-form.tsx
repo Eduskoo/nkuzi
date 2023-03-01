@@ -24,7 +24,7 @@ const WaitListForm = () => {
                 name=""
               />
             </label>
-            <label htmlFor="fullName">
+            {/* <label htmlFor="fullName">
               <span className="font-[500]">Phone Number</span>
               <input
                 className="border-1 mb-5 mt-2 block w-full rounded-2xl border-[#1A0048]"
@@ -32,7 +32,7 @@ const WaitListForm = () => {
                 placeholder="Enter phone Number"
                 name=""
               />
-            </label>
+            </label> */}
             <label htmlFor="">
               <span className="font-[500]">Which best describe you</span>
               <select
@@ -67,10 +67,14 @@ const WaitListForm = () => {
         </div>
       </div>
       <div>
-        <label htmlFor="" className="flex items-center gap-1">
+        <label htmlFor="" className="flex  gap-2">
           <input type="checkbox" className="default:ring-2" />
-          <span className="font-[500]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          <span className="text-xs font-[500]">
+            By joining the waiting list, you agree to receive updates and
+            notification regarding Nkuzi, we will collect your name and email
+            for the purpose of adding you to the waiting list. Your information
+            will be kept confidential and will not be shared with any third
+            parties.
           </span>
         </label>
       </div>

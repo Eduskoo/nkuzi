@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import BannerImage from "../../../public/banner-image.png";
 
 const BannerSection = () => {
@@ -13,9 +14,12 @@ const BannerSection = () => {
               Students
             </h2>
             <div className="mt-[58px] text-xl">
-              <a className="cursor-pointer rounded-lg border-4  border-[#B063FF] px-8 py-3 text-xl font-semibold text-white shadow-sm transition-all  md:text-2xl">
+              <Link
+                href={"/waitlist"}
+                className="cursor-pointer rounded-lg border-4  border-[#B063FF] px-8 py-3 text-xl font-semibold text-white shadow-sm transition-all  md:text-2xl"
+              >
                 Learn more
-              </a>
+              </Link>
             </div>
             {/* <p className="mt-6 text-xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -14,7 +14,7 @@ const FeatureSection = () => {
       <div className="bg-[#E8E6ED] py-11">
         <div className="my-0 mx-auto w-11/12 max-w-[1107px]">
           <div>
-            <h1 className="text-center text-5xl font-bold text-[#1A0048] md:text-[52px]">
+            <h1 className="text-center text-2xl font-bold text-[#1A0048] md:text-[52px]">
               Explore
             </h1>
           </div>
