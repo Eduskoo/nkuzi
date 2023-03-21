@@ -17,10 +17,11 @@ export default function Home() {
         <title>Nkuzi</title>
         <meta
           name="description"
-          content="One stop platform providing soft landing for international students"
+          content="Nkuzi helps international students lead a decent life by connecting them to affordable accommodation, flexible jobs, low interest finance and like-minded communities."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <title>One-stop platform for international students</title>
       </Head>
       <Navabar />
       <BannerSection />

@@ -35,7 +35,7 @@ const Navabar = () => {
        </div>
      </nav> */}
       {/* fixed top-0 left-0 */}
-      <nav className=" z-50 w-full bg-white shadow-xl backdrop-blur-sm">
+      <nav className="z-50 w-full bg-white shadow-xl backdrop-blur-sm">
         {/* <div className="my-0 mx-auto flex h-14 w-11/12  max-w-[1107px] items-center justify-between"> */}
         <div className="my-0 mx-auto flex h-14 w-11/12 max-w-[1107px] items-center justify-between lg:mx-0 lg:w-full lg:max-w-none lg:px-[56px]">
           <div>

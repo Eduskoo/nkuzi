@@ -21,7 +21,7 @@ const MobileNav: React.FC<MobileNavProps> = ({
           menuActive ? "right-0" : "-right-80"
         } m-auto flex h-screen w-72 flex-col border bg-white p-2 ${
           menuActive ? "opacity-100" : "opacity-0"
-        } shadow-sm transition delay-150 ease-in-out sm:w-full lg:hidden`}
+        } shadow-sm transition delay-150 ease-in-out lg:hidden`}
       >
         <div
           className="mx-auto cursor-pointer p-5 text-center text-2xl"
